@@ -1,47 +1,50 @@
-import React, {useEffect, useLayoutEffect, useState} from 'react';
+import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 // @ts-ignore
 import logo from './DAN.JPG';
 import './App.css';
-import Form from "./Form";
+// @ts-ignore
+import Step from "./Step.tsx";
+import FormStep from "./FormStep";
+
+const steps: any[] = [{
+  texts: ['test', 'test', 'test']
+}, {
+  texts: ['mygod']
+}];
+let fetched = false;
 
 const App: React.FC = () => {
-  const [src, setSrc] = useState('about:blank');
-  const [data, setData] = useState({ word: '', textColor: '000000' });
+  const [step, setStep] = useState(0);
+  const [word, setWord] = useState('');
+  const [textColor, setColor] = useState('000000');
 
-  // useEffect(() => {
-  //   fetch('http://kirdan.ru', {
-  //     mode: 'no-cors',
-  //     method: 'post'
-  //   });
-  // });
-
-  const setIframe = (word: any, textColor: any) => {
-    setSrc(`//ntmaker.gfto.ru/newneontext/?image_height=200&image_width=600&image_font_shadow_width=30&image_font_size=80&image_background_color=1F1F1F&image_text_color=${textColor}&image_font_shadow_color=${textColor}&image_url=&image_text=Неон Neon&image_font_family=Nickainley&`)
-    setData({ word, textColor });
-  };
-
-  const sendWord = () => {
-    const formData = new FormData();
-
-    formData.append('word', data.word);
-    formData.append('textColor', data.textColor);
-
+  if (!fetched) {
     fetch('http://kirdan.ru', {
-      mode: 'no-cors',
+      mode: 'cors',
       method: 'post',
-      body: formData
-    });
+    })
+        .then(async data => {
+          const res = await data.json();
+
+          fetched = true;
+          setWord(res.image_text);
+          setColor(res.image_text_color);
+        })
+        .catch(() => {});
+  }
+
+  const nextStep = () => {
+    setStep(step + 1);
   };
 
-  return (
-    <div className="App">
-        {/*<img src={logo} className="App-logo" alt="Daniil" />*/}
-        {/*<div>Даниил, с днем рождения</div>*/}
-        <Form setIframe={setIframe} />
-        <iframe id='frame' src={src} frameBorder='no' scrolling='no' width="600" height="200" />
-        <button onClick={sendWord}>Подтвердить</button>
-    </div>
-  );
+  return <div className="App">
+    <img src={logo} className="App-logo" alt="Daniil"/>
+    <div>Даниил, с днем рождения</div>
+    {step === steps.length ?
+        <FormStep wordApi={word} textColorApi={textColor} /> :
+        <Step data={steps[step]} handleClick={nextStep}/>
+    }
+  </div>;
 }
 
 export default App;
