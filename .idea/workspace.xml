@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="" />
+    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="23165000" />
+      <workItem from="1570034519513" duration="23416000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570103003772</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Сделано так чтобы кнопки были видны">
+      <created>1570103268811</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570103268811</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +242,7 @@
     <MESSAGE value="Пусть будет еще шире и выше, чтобы наверняка" />
     <MESSAGE value="Билд" />
     <MESSAGE value="Уменьшены поля" />
-    <option name="LAST_COMMIT_MESSAGE" value="Уменьшены поля" />
+    <MESSAGE value="Сделано так чтобы кнопки были видны" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделано так чтобы кнопки были видны" />
   </component>
 </project>
