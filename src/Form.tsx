@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
+// @ts-ignore
+import { motion } from "framer-motion";
+
+const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+};
 
 // @ts-ignore
 const Form = ({ setIframe }) => {
@@ -22,7 +29,7 @@ const Form = ({ setIframe }) => {
     }
 
     return (
-        <div>
+        <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
             <label>
                 Вот это объяснение что надо ввести
                 <input
@@ -39,7 +46,7 @@ const Form = ({ setIframe }) => {
                 <input key='color' type='color' onChange={(e) => setTextColor(e.target.value)} defaultValue='#dfff59' />
             </label>
             <button onClick={onTestClick}>Попробовать</button>
-        </div>
+        </motion.div>
     );
 }
 

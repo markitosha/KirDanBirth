@@ -41,11 +41,9 @@ const App: React.FC = () => {
 
     return <div className="App">
         <main>
-            {/*<img src={logo} className="App-logo" alt="Daniil"/>*/}
-            {/*<div>Даниил, с днем рождения</div>*/}
             {step === steps.length ?
                 <FormStep wordApi={word} textColorApi={textColor}/> :
-                <Step data={steps[step]} handleClick={nextStep}/>
+                <Step data={steps[step]} handleClick={nextStep} key={step} />
             }
         </main>
         <footer>Created by danasra (c) 2019</footer>

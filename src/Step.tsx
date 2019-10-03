@@ -1,15 +1,22 @@
 import React from 'react';
 import './App.css';
+// @ts-ignore
+import { motion } from "framer-motion";
+
+const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+};
 
 // @ts-ignore
 const Step = ({ data, handleClick }) => {
-    return <React.Fragment>
+    return <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
         <img src={data.img} height='250' />
         {data.texts.map(
             (text: any, index: any) => <p key={index}>{text}</p>
         )}
         <button onClick={handleClick}>Далее</button>
-    </React.Fragment>
+    </motion.div>
 };
 
 export default Step;

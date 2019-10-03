@@ -1,6 +1,13 @@
 import React, {useState} from 'react';
 import './App.css';
 import Form from "./Form";
+// @ts-ignore
+import { motion } from "framer-motion";
+
+const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+};
 
 // @ts-ignore
 const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
@@ -43,12 +50,19 @@ const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
             {!wordApi && selectForm &&
                 <Form setIframe={setIframe} />
             }
-            {!selectForm && <iframe id='frame' src={src} frameBorder='no' scrolling='no' height="300px"/>}
+            {!selectForm && <motion.iframe
+                id='frame' src={src} frameBorder='no' scrolling='no' height="300px"
+                initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}
+            />}
             <div className='buttons'>
-                {!selectForm && !wordApi && !liked && <button onClick={handleBack}>Назад</button>}
-                {!selectForm && !wordApi && !liked && <button onClick={sendWord}>Мне нравится</button>}
+                {!selectForm && !wordApi && !liked &&
+                <motion.button onClick={handleBack} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Назад</motion.button>
+                }
+                {!selectForm && !wordApi && !liked &&
+                <motion.button onClick={sendWord} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Мне нравится</motion.button>
+                }
             </div>
-            {liked && <p>Текст про то что мечты сбываются</p>}
+            {liked && <motion.p initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Текст про то что мечты сбываются</motion.p>}
         </div>
     );
 }
