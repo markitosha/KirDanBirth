@@ -31,7 +31,9 @@ const Form = ({ setIframe }) => {
     return (
         <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
             <label>
-                Вот это объяснение что надо ввести
+                Поиграем в слова. Если бы ты мог описать своё состояние одним словом, что это было бы за слово?
+                Выбери слово, которым бы ты описал своё будущее.
+                Выбери слово, которое тебя вдохновляет! Это слово, которое тебе нравится. Оно красивое. Тебе нравится его слышать, произносить, видеть в книгах или в сообщениях от друзей... Оно заряжает и мотивирует. Поделись с нами этим словом. Прямо здесь. Прямо сейчас
                 <input
                     key='word'
                     type='text'
@@ -42,10 +44,10 @@ const Form = ({ setIframe }) => {
                 />
             </label>
             <label>
-                Вот это объяснение по цвету
+                Неплохо. Как насчёт цветов? Когда ты видишь это слово. С каким цветом оно ассоциируется?
                 <input key='color' type='color' onChange={(e) => setTextColor(e.target.value)} defaultValue='#dfff59' />
             </label>
-            <button onClick={onTestClick}>Попробовать</button>
+            <button onClick={onTestClick}>Дальше</button>
         </motion.div>
     );
 }
