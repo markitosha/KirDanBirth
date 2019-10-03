@@ -3,11 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormStep.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.92afad4d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.92afad4d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.d4aa0f35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.d4aa0f35.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/DAN.b33dcae3.JPG" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="14095000" />
+      <workItem from="1570034519513" duration="14639000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -119,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570054098642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Натянуты стили">
+      <created>1570090869514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570090869514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +156,7 @@
     <MESSAGE value="Обновлен гитигнор" />
     <MESSAGE value="Добавлена пошаговая логика" />
     <MESSAGE value="Добавлен билд для робушки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен билд для робушки" />
+    <MESSAGE value="Натянуты стили" />
+    <option name="LAST_COMMIT_MESSAGE" value="Натянуты стили" />
   </component>
 </project>
