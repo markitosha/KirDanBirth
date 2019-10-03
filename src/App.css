@@ -91,3 +91,7 @@ main {
   height: 100%;
   margin: 0 5vw;
 }
+
+iframe {
+  margin-top: -40px;
+}
