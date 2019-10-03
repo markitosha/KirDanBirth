@@ -14,8 +14,8 @@ const variants = {
 const Step = ({ data, handleClick }) => {
     return <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
         {data.img ?
-            <img src={data.img} height='400'/> :
-            <Player playsInline src={data.video} fluid={false} height={400}/>
+            <img src={data.img}/> :
+            <Player playsInline src={data.video} fluid={false} height={400} width={Math.min(window.innerWidth, 600)} />
         }
         {data.id &&
             <p><s>Текст от Сани</s>. Цвети и пахни</p>

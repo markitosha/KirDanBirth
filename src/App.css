@@ -106,3 +106,8 @@ iframe {
 .form {
   margin-top: 50px;
 }
+
+img {
+  max-height: 400px;
+  max-width: 100vw;
+}

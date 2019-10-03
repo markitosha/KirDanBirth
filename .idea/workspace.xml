@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
       <workItem from="1570034519513" duration="24246000" />
+      <workItem from="1570120131103" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -249,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570118774316</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="вернули html">
+      <created>1570120229883</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120229883</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Хотелось бы верить что правда последний">
+      <created>1570120280669</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120280669</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +287,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Отправка данных" />
     <MESSAGE value="Обновлен гитигнор" />
     <MESSAGE value="Добавлена пошаговая логика" />
     <MESSAGE value="Добавлен билд для робушки" />
@@ -295,6 +310,8 @@
     <MESSAGE value="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба" />
     <MESSAGE value="Добавлены тексты, отступы и картинки" />
     <MESSAGE value="Новый билд!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новый билд!" />
+    <MESSAGE value="вернули html" />
+    <MESSAGE value="Хотелось бы верить что правда последний" />
+    <option name="LAST_COMMIT_MESSAGE" value="Хотелось бы верить что правда последний" />
   </component>
 </project>
