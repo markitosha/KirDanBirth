@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.tsx" afterDir="false" />
+    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="Новый билд">
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.d38420c6.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.d38420c6.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.2f80be4f.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.2f80be4f.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.05fea00832ad56ea5ff0147a3595e432.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/precache-manifest.617641084d313fedfca2251572cca349.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.f3906b34.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.f3906b34.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.7b2a303b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.7b2a303b.chunk.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="24001000" />
+      <workItem from="1570034519513" duration="24246000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -228,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570103701199</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба">
+      <created>1570105673353</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570105673354</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +285,7 @@
     <MESSAGE value="Сокращена ширина текстов" />
     <MESSAGE value="Новый билд" />
     <MESSAGE value="Увеличила фотку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Увеличила фотку" />
+    <MESSAGE value="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба" />
   </component>
 </project>
