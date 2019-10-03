@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="" />
+    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="22514000" />
+      <workItem from="1570034519513" duration="22918000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -175,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570102169719</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Пусть будет еще шире и выше, чтобы наверняка">
+      <created>1570102276978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570102276978</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Билд">
+      <created>1570102330747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570102330747</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +210,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Отправка данных" />
     <MESSAGE value="Обновлен гитигнор" />
     <MESSAGE value="Добавлена пошаговая логика" />
@@ -207,6 +226,8 @@
     <MESSAGE value="Сделаны отступы, увеличен шрифт" />
     <MESSAGE value="Изменена высота iframe" />
     <MESSAGE value="Ширина iframe совпадает с шириной экрана" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ширина iframe совпадает с шириной экрана" />
+    <MESSAGE value="Пусть будет еще шире и выше, чтобы наверняка" />
+    <MESSAGE value="Билд" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билд" />
   </component>
 </project>
