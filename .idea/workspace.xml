@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="Новый билд">
+    <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Anna.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/natula.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/sana.jpg" afterDir="false" />
@@ -42,6 +42,7 @@
       <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FormStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormStep.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
@@ -317,6 +318,7 @@
     <MESSAGE value="Новый билд" />
     <MESSAGE value="Увеличила фотку" />
     <MESSAGE value="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены ограничения по ширине, кнопочки посередине и видео для Роба" />
+    <MESSAGE value="Добавлены тексты, отступы и картинки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены тексты, отступы и картинки" />
   </component>
 </project>

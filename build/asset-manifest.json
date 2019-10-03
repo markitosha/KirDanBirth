@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e035758e.chunk.css",
+    "main.js": "/static/js/main.89eae0cb.chunk.js",
+    "main.js.map": "/static/js/main.89eae0cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d4aa0f35.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d4aa0f35.js.map",
+    "static/css/2.1af7a3c5.chunk.css": "/static/css/2.1af7a3c5.chunk.css",
+    "static/js/2.c08c874c.chunk.js": "/static/js/2.c08c874c.chunk.js",
+    "static/js/2.c08c874c.chunk.js.map": "/static/js/2.c08c874c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.211b3f78e8061b7d0ee8ebf2286a74ed.js": "/precache-manifest.211b3f78e8061b7d0ee8ebf2286a74ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1af7a3c5.chunk.css.map": "/static/css/2.1af7a3c5.chunk.css.map",
+    "static/css/main.e035758e.chunk.css.map": "/static/css/main.e035758e.chunk.css.map",
+    "static/media/Anna.jpg": "/static/media/Anna.d53b6976.jpg",
+    "static/media/DAN.JPG": "/static/media/DAN.b33dcae3.JPG",
+    "static/media/ROB.mp4": "/static/media/ROB.cf7ae728.mp4",
+    "static/media/natula.JPG": "/static/media/natula.861b01f4.JPG",
+    "static/media/sana.jpg": "/static/media/sana.692a0628.jpg"
+  }
+}
