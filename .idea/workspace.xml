@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormStep.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="10117000" />
+      <workItem from="1570034519513" duration="14095000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -107,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570053460449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлен билд для робушки">
+      <created>1570054098641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570054098642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +140,7 @@
     <MESSAGE value="Отправка данных" />
     <MESSAGE value="Обновлен гитигнор" />
     <MESSAGE value="Добавлена пошаговая логика" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена пошаговая логика" />
+    <MESSAGE value="Добавлен билд для робушки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен билд для робушки" />
   </component>
 </project>

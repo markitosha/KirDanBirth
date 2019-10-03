@@ -7,44 +7,49 @@ import Step from "./Step.tsx";
 import FormStep from "./FormStep";
 
 const steps: any[] = [{
-  texts: ['test', 'test', 'test']
+    texts: ['test', 'test', 'test'],
+    img: logo
 }, {
-  texts: ['mygod']
+    texts: ['mygod']
 }];
 let fetched = false;
 
 const App: React.FC = () => {
-  const [step, setStep] = useState(0);
-  const [word, setWord] = useState('');
-  const [textColor, setColor] = useState('000000');
+    const [step, setStep] = useState(0);
+    const [word, setWord] = useState('');
+    const [textColor, setColor] = useState('000000');
 
-  if (!fetched) {
-    fetch('http://kirdan.ru', {
-      mode: 'cors',
-      method: 'post',
-    })
-        .then(async data => {
-          const res = await data.json();
-
-          fetched = true;
-          setWord(res.image_text);
-          setColor(res.image_text_color);
+    if (!fetched) {
+        fetch('http://kirdan.ru', {
+            mode: 'cors',
+            method: 'post',
         })
-        .catch(() => {});
-  }
+            .then(async data => {
+                const res = await data.json();
 
-  const nextStep = () => {
-    setStep(step + 1);
-  };
-
-  return <div className="App">
-    <img src={logo} className="App-logo" alt="Daniil"/>
-    <div>Даниил, с днем рождения</div>
-    {step === steps.length ?
-        <FormStep wordApi={word} textColorApi={textColor} /> :
-        <Step data={steps[step]} handleClick={nextStep}/>
+                fetched = true;
+                setWord(res.image_text);
+                setColor(res.image_text_color);
+            })
+            .catch(() => {
+            });
     }
-  </div>;
+
+    const nextStep = () => {
+        setStep(step + 1);
+    };
+
+    return <div className="App">
+        <main>
+            {/*<img src={logo} className="App-logo" alt="Daniil"/>*/}
+            {/*<div>Даниил, с днем рождения</div>*/}
+            {step === steps.length ?
+                <FormStep wordApi={word} textColorApi={textColor}/> :
+                <Step data={steps[step]} handleClick={nextStep}/>
+            }
+        </main>
+        <footer>Created by danasra (c) 2019</footer>
+    </div>;
 }
 
 export default App;
