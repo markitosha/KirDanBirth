@@ -17,7 +17,10 @@ const Step = ({ data, handleClick }) => {
             <img src={data.img} height='400'/> :
             <Player playsInline src={data.video} fluid={false} height={400}/>
         }
-        {data.texts.map(
+        {data.id &&
+            <p><s>Текст от Сани</s>. Цвети и пахни</p>
+        }
+        {!data.id && data.texts.map(
             (text: any, index: any) => <p key={index}>{text}</p>
         )}
         <button onClick={handleClick}>Далее</button>
