@@ -50,19 +50,21 @@ const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
             {!wordApi && selectForm &&
                 <Form setIframe={setIframe} />
             }
-            {!selectForm && <motion.iframe
-                id='frame' src={src} frameBorder='no' scrolling='no' height="300px"
-                initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}
-            />}
-            <div className='buttons'>
-                {!selectForm && !wordApi && !liked &&
-                <motion.button onClick={handleBack} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Назад</motion.button>
-                }
-                {!selectForm && !wordApi && !liked &&
-                <motion.button onClick={sendWord} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Мне нравится</motion.button>
-                }
+            <div>
+                {!selectForm && <motion.iframe
+                    id='frame' src={src} frameBorder='no' scrolling='no' height="300px"
+                    initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}
+                />}
+                <div className='buttons'>
+                    {!selectForm && !wordApi && !liked &&
+                    <motion.button onClick={handleBack} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Назад</motion.button>
+                    }
+                    {!selectForm && !wordApi && !liked &&
+                    <motion.button onClick={sendWord} initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Мне нравится</motion.button>
+                    }
+                </div>
+                {liked && <motion.p initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Текст про то что мечты сбываются</motion.p>}
             </div>
-            {liked && <motion.p initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>Текст про то что мечты сбываются</motion.p>}
         </div>
     );
 }
