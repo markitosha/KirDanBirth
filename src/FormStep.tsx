@@ -33,8 +33,8 @@ const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
         formData.append('image_text', data.word);
         formData.append('image_text_color', data.textColor);
 
-        fetch('http://kirdan.ru', {
-            mode: 'no-cors',
+        fetch('https://kirdan.ru', {
+            mode: 'cors',
             method: 'post',
             body: formData
         });

@@ -38,6 +38,7 @@ label {
   max-width: 800px;
   justify-content: center;
   display: block;
+  margin-top: 40px;
 }
 
 label * {
@@ -94,7 +95,7 @@ main {
 }
 
 p {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 800px;
 }
 
