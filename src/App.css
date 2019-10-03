@@ -8,6 +8,7 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 40px 0;
 }
 
 .App-logo {
@@ -70,6 +71,7 @@ input {
   height: 40px;
   width: 100%;
   margin: 10px 0;
+  padding: 0 10px;
   color: white;
   font-size: 16px;
 }
