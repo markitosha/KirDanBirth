@@ -12,7 +12,7 @@ const variants = {
 // @ts-ignore
 const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
     const [src, setSrc] = useState(wordApi ?
-        `//ntmaker.gfto.ru/newneontext/?image_height=200&image_width=600&image_font_shadow_width=30&image_font_size=80&image_background_color=000000&image_text_color=${textColorApi}&image_font_shadow_color=${textColorApi}&image_url=&image_text=${wordApi}&image_font_family=Nickainley&` :
+        `//ntmaker.gfto.ru/newneontext/?image_height=800&image_width=1000&image_font_shadow_width=30&image_font_size=100&image_background_color=000000&image_text_color=${textColorApi}&image_font_shadow_color=${textColorApi}&image_url=&image_text=${wordApi}&image_font_family=Nickainley&` :
         'about:blank'
     );
     const [data, setData] = useState({ word: wordApi, textColor: textColorApi });
@@ -20,7 +20,7 @@ const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
     const [liked, setLiked] = useState(wordApi ? true : false);
 
     const setIframe = (word: any, textColor: any) => {
-        setSrc(`//ntmaker.gfto.ru/newneontext/?image_height=200&image_width=600&image_font_shadow_width=30&image_font_size=80&image_background_color=000000&image_text_color=${textColor}&image_font_shadow_color=${textColor}&image_url=&image_text=${word}&image_font_family=Nickainley&`)
+        setSrc(`//ntmaker.gfto.ru/newneontext/?image_height=800&image_width=1000&image_font_shadow_width=30&image_font_size=100&image_background_color=000000&image_text_color=${textColor}&image_font_shadow_color=${textColor}&image_url=&image_text=${word}&image_font_family=Nickainley&`)
         setData({ word, textColor });
         if (word) {
             setSelectForm(false);
@@ -52,7 +52,7 @@ const FormStep = ({ wordApi = '', textColorApi = '000000' }) => {
             }
             <div>
                 {!selectForm && <motion.iframe
-                    id='frame' src={src} frameBorder='no' scrolling='no' height="300px"
+                    id='frame' src={src} frameBorder='no' scrolling='no' width={window.innerWidth} height={800}
                     initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}
                 />}
                 <div className='buttons'>

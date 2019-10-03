@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormStep.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
-      <workItem from="1570034519513" duration="21588000" />
+      <workItem from="1570034519513" duration="22257000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570101001604</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Сделаны отступы, увеличен шрифт">
+      <created>1570101253706</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570101253706</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="поправлено положение футера" />
     <MESSAGE value="Увеличены отступы в инпуте" />
     <MESSAGE value="Добавлены тексты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены тексты" />
+    <MESSAGE value="Сделаны отступы, увеличен шрифт" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделаны отступы, увеличен шрифт" />
   </component>
 </project>
