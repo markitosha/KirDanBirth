@@ -29,7 +29,7 @@ const Form = ({ setIframe }) => {
     }
 
     return (
-        <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
+        <motion.div className='form' initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
             <label>
                 Поиграем в слова. Если бы ты мог описать своё состояние одним словом, что это было бы за слово?
                 Выбери слово, которым бы ты описал своё будущее.

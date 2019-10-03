@@ -11,7 +11,10 @@ const variants = {
 // @ts-ignore
 const Step = ({ data, handleClick }) => {
     return <motion.div initial="hidden" animate="visible" variants={variants} transition={{ duration: 2 }}>
-        <img src={data.img} height='400' />
+        {data.img ?
+            <img src={data.img} height='400'/> :
+            <video src={data.video} height='400'/>
+        }
         {data.texts.map(
             (text: any, index: any) => <p key={index}>{text}</p>
         )}

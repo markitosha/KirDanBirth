@@ -35,8 +35,9 @@
 
 label {
   font-size: 16px;
-  max-width: 500px;
+  max-width: 800px;
   justify-content: center;
+  display: block;
 }
 
 label * {
@@ -85,7 +86,7 @@ input {
 
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 main {
@@ -93,10 +94,14 @@ main {
 }
 
 p {
-  margin: 0 5vw;
+  margin: 0 auto;
   max-width: 800px;
 }
 
 iframe {
   margin-top: -40px;
+}
+
+.form {
+  margin-top: 50px;
 }
