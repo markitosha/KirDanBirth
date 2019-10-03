@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 // @ts-ignore
 import logo from './DAN.JPG';
+// @ts-ignore
+import vidos from './ROB.mp4';
 import './App.css';
 // @ts-ignore
 import Step from "./Step.tsx";
@@ -20,7 +22,7 @@ const steps: any[] = [{
     img: logo,
     texts: ['Текст от Ани']
 }, {
-    img: logo,
+    video: vidos,
     texts: ['Текст от Роберта']
 }, {
     img: logo,
