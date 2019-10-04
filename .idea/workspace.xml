@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2c2200-bf5b-450e-9414-37c73a8bae1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.c288c18386cf4a0606f2c244e81b60ba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.1af7a3c5.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.1af7a3c5.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.fb69df44.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.fb69df44.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c08c874c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.c08c874c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c65e4a78.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.c65e4a78.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.d4aa0f35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.d4aa0f35.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/Anna.d53b6976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/DAN.b33dcae3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/ROB.cf7ae728.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/natula.861b01f4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/sana.692a0628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Anna.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/Anna.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAN.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/DAN.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormStep.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormStep.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ROB.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/ROB.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Step.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Step.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/natula.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/natula.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/imgs/sana.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +59,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RejaG5eWpvfiYlLEn6SqrxDuer" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
@@ -88,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570034517725</updated>
       <workItem from="1570034519513" duration="24246000" />
-      <workItem from="1570120131103" duration="516000" />
+      <workItem from="1570120131103" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="Отправка данных">
       <created>1570048182008</created>
@@ -265,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570120280669</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Исправлены размеры видео и картинок">
+      <created>1570120833719</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120833719</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ПОСЛЕДНИЙ ПОЖАЛУЙСТА Т_Т">
+      <created>1570120882110</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120882110</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,8 +340,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Обновлен гитигнор" />
-    <MESSAGE value="Добавлена пошаговая логика" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Добавлен билд для робушки" />
     <MESSAGE value="Натянуты стили" />
     <MESSAGE value="Пересобрана статика" />
@@ -312,6 +364,8 @@
     <MESSAGE value="Новый билд!" />
     <MESSAGE value="вернули html" />
     <MESSAGE value="Хотелось бы верить что правда последний" />
-    <option name="LAST_COMMIT_MESSAGE" value="Хотелось бы верить что правда последний" />
+    <MESSAGE value="Исправлены размеры видео и картинок" />
+    <MESSAGE value="ПОСЛЕДНИЙ ПОЖАЛУЙСТА Т_Т" />
+    <option name="LAST_COMMIT_MESSAGE" value="ПОСЛЕДНИЙ ПОЖАЛУЙСТА Т_Т" />
   </component>
 </project>
