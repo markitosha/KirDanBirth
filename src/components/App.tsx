@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Step from './Step';
 import FormStep from './FormStep';
 import { steps } from '../constants';
